@@ -1,0 +1,91 @@
+
+/* .
+
+============================================================================
+pseudo class/kelas semu adalah style yang hanya aktif dalam keadaan tertentu
+============================================================================
+
+. */
+.
+/* 
+psudo-class yang berhubungan dengan link
+-----------------------------------------
+:link    -> style default pada sebuah link (a yang memiliki href)
+:hover   -> style ketika kursor mouse berada diatas sebuah link/elemen
+:active  -> style ketika sebuah link diklik (keadaan aktif)
+:visited -> style ketika sebuah link sudah pernah dikunjungi sebelumnya
+
+. */
+.hello:link {
+    color:aqua
+}
+
+.hello:hover {
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.hello:active {
+    color: rgb(5, 64, 5);
+    font-style: italic;
+}
+
+.hello:visited {
+    color: rgb(175, 171, 171);
+}
+
+/* . 
+
+psudo-class yang berhubungan dengan posisi element (1)
+:first-child   -> memilih elemen pertama dari sebuah parent (elemen pembungkus)
+:last-child    -> memilih elemen terakhir dari sebua parent
+:nth-child(n)  -> memilih elemen ke n dari sebuah parent
+                  n bisa urutan(1), kelipatan(2n,3n), dan ganjil(even) genap(odd)
+-----------------------------------------------------------------------------------
+
+/* . */
+ul li:first-child a {
+    color: aqua;
+}
+    
+ul li:nth-child(3n+2) a {
+    color: rgb(90, 5, 5);
+    }
+    
+
+ul li:last-child a {
+    color: blueviolet;
+} 
+
+
+ol li:nth-child(even) a {
+    color: red;
+}
+ol li:nth-child(odd) a {
+    color: white;
+}
+
+/* . 
+
+pseudo-class yang berhubungan dengan elemen (2)
+untuk tag yang ngak punya parent
+------------------------------------------------------
+:first-of-type -> memilih elemen pertama dari sebuah jenis/tipe tag
+:last-of-type  -> memilih elemen terakhir dari sebuah jenis/tipe tag 
+
+. */
+
+p:first-of-type {
+    color: crimson;
+}
+
+p:last-of-type {
+    color: lightskyblue;
+    font-size: larger;
+}
+
+
+body {
+    background-color: black;
+}
+    

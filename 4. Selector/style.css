@@ -1,0 +1,47 @@
+/* .
+1. ELEMEN HTML 
+-a,d (dibaca a dan d)
+-a d e (dibaca dari kanan ; tololng carikan e didalam d didalam a)
+.  */
+
+h1, h2 {
+    color: chocolate;
+}
+
+ol li a {
+    color: blue;
+}
+
+ul li a {
+    color: aqua;
+}
+
+a {color: purple;}
+
+/* .
+2. ID 
+html => id=
+css => #...
+. */
+
+#p1 {
+    color: red;
+}
+
+/* .
+3. class
+html => class=
+css => .class
+. */
+
+.p2 {
+    color: pink;
+}
+
+/* .
+
+=====================================================
+DALAM CSS, LEBIH BAIK MENGGUNAKAN CLASS DARIPADA ID 
+=====================================================
+
+. */

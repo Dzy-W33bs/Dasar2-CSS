@@ -1,0 +1,35 @@
+/* FONT-FAMILY */
+#h1family {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#pfamily {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* font-size */
+#h1size {
+  font-size: 100px;
+}
+#psize {
+  font-size: 10px;
+}
+
+/* font-weight */
+#h1weight {
+  font-weight: bolder;
+}
+#pweight {
+  font-weight: lighter;
+}
+
+/* font-variant */
+#h1variant {
+  font-variant: normal;
+}
+#h2variant {
+  font-variant: small-caps;
+}
+
+/* font-style */
+#pitalic {font-style: italic;}
+#poblique {font-style: oblique;}

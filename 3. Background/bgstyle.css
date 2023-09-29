@@ -1,0 +1,46 @@
+/* <!-- . 
+
+BACKGROUND
+1. background-color = mengatur warna pada background
+2. background-image = mengatur gambar yang akan digunakan pada background
+3. background-position = mengatur posisi gambar pada background
+4. background-repeat = mengatur jenis pengulangan gambar pada background
+
+. 
+ --> */
+
+
+/* . 
+
+Catatan:
+1. background-repeat
+background-repeat : sumbu-x (backgroundnya dibatasi sumbu y)
+background-repeat : sumbu-y (backgroundnya dibatasi sumbu x)
+background-repeat : no-repeat (background bebas dimana dan bsa diatur pke bg-postion)
+
+2. background-position
+posisi sumbu x: left/center/right
+posisi sumbu y: top/center/bottom
+
+misal lu mau bgnya di kanan bawah
+background-position : right bottom
+
+. */
+
+/* body {
+    background-color: aqua;
+    background-image: url(anime.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 5%;
+} */
+
+/* .
+shorthand
+background : color url() repeat position size
+background : aqua url(anime.png) no-repeat right bottom 5%
+. */
+
+body {
+    background: cyan url(anime.png) no-repeat left top 10%;
+}

@@ -1,0 +1,18 @@
+body {
+  font-family: fantasy;
+}
+
+h1 {
+  color: navy;
+  font-size: x-large;
+}
+
+h2 {
+  color: maroon;
+  font-size: medium;
+}
+
+p {
+  color: lime;
+  font-size: x-small;
+}
